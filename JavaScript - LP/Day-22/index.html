@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mn-watchBx">
+        <h1>Stop Watch</h1>
+        <div class="inr-wtarea">
+            <div class="timer">
+                <div class="bxs-cmn" id="minutes">00</div>
+                <div class="bxs-cmn">:</div>
+                <div class="bxs-cmn" id="seconds">00</div>
+                <div class="bxs-cmn">:</div>
+                <div class="bxs-cmn" id="milsecs">00</div>
+            </div>
+            <div class="control-panel">
+                <button onclick="start()">START</button>
+                <button onclick="stop()">STOP</button>
+                <button onclick="reset()">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

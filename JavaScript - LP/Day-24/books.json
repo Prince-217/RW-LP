@@ -1,0 +1,19 @@
+{
+    "books": [
+        {
+            "author": "author1",
+            "name":"book1",
+            "releasedate":"date1"
+        },
+        {
+            "author": "author2",
+            "name":"book2",
+            "releasedate":"date2"
+        },
+        {
+            "author": "author3",
+            "name":"book3",
+            "releasedate":"date3"
+        }
+    ]
+}

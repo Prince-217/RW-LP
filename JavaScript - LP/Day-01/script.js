@@ -1,0 +1,1 @@
+console.log("Hello DOM (Document Object Model)");

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .notice {
+            padding: 10px;
+            background-color: yellow;
+            border: 2px solid black;
+            margin: 5px;
+        }
+
+        .urgent {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: 2px solid darkred;
+            margin: 5px;
+        }
+
+        .resolved {
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: 2px solid darkgreen;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RW Skill Education — Notice Board</h1>
+
+
+    <a id="websiteLink" href="https://www.rwskill.edu.in" target="_blank">Visit Official Website</a>
+    <br><br>
+    <a id="portalLink">Student Portal</a>
+    <br><br>
+
+    <div id="noticeBox" class="">Fee last date is 31st July.</div>
+    <br>
+    <button onclick="makeUrgent()">Make Urgent</button>
+    <button onclick="makeNormal()">Make Normal</button>
+    <button onclick="toggleNotice()">Toggle Notice Style</button>
+    <button onclick="makeResolved()">Mark Resolved</button>
+    <button onclick="checkUrgent()">Check If Urgent</button>
+    <br><br>
+
+    <div id="board"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

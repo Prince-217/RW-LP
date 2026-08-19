@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: transparent;
+            padding: 15px 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        #scrollInfo {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: black;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        
+        #topBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            padding: 10px 15px;
+            background: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        #home {
+            background-color: #f0f0f0;
+        }
+
+        #about {
+            background-color: #d0e8ff;
+        }
+
+        #skills {
+            background-color: #d0ffd6;
+        }
+
+        #contact {
+            background-color: #ffd6d6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">🎓 Prince's Portfolio</div>
+    <div id="scrollInfo">Scroll: 0px</div>
+    <button id="topBtn">⬆ Top</button>
+
+    <div class="section" id="home">🏠 Home Section</div>
+    <div class="section" id="about">👤 About Section</div>
+    <div class="section" id="skills">💻 Skills Section</div>
+    <div class="section" id="contact">📬 Contact Section</div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
