@@ -1,0 +1,29 @@
+@media (max-width: 1536px){
+    .box{
+        background-color: darkorange;
+    }
+}
+
+@media (max-width: 1200px){
+    .box{
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 992px){
+    .box{
+        background-color: yellowgreen;
+    }
+}
+
+@media (max-width: 768px){
+    .box{
+        background-color: chartreuse;
+    }
+}
+
+@media(max-width: 576px){
+    .box{
+        background-color: red;
+    }
+}

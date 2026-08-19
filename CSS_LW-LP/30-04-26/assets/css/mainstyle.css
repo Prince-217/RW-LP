@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
+}
+
+.big-txt{
+    position: absolute;
+    font-family: "Macondo", cursive;
+    font-size: 130px;
+    font-weight: 400;
+    color: white;
+    transform: scale(0);
+    border-bottom: 0px solid transparent;
+    transition: all 3s;
+    transition-delay: border-bottom 3s;
+}
+
+body:hover .big-txt{
+    transform: scale(1) translate(0, -50px);
+    border-bottom: 2px solid white; 
+}
+
+
+.holographic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+.holographic-card-1 {
+    position: absolute;
+    inset: 0 auto 0 30px;
+    margin: auto;
+    height: 200px;
+    width: 150px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.holographic-card-2 {
+    position: absolute;
+    inset: 0 30px 0 auto;
+    margin: auto;
+    height: 200px;
+    width: 150px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.holographic-card-1 i {
+    font-size: 140px;
+    color: orangered;
+    position: relative;
+    z-index: 2;
+}
+
+.holographic-card-2 i {
+    font-size: 140px;
+    color: rgb(65, 59, 243);
+    position: relative;
+    z-index: 2;
+}
+
+.comn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.comn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.comn:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}

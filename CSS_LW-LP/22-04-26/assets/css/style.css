@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: #79bff7;
+	padding: 20px	;
+}
+
+.d-ib{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo > a{
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.menu{
+	margin-left: 40%;
+}
+
+.menu a{
+	font-size: 20px;
+	margin-inline: 10px;
+	border-bottom: 3px solid #1168ad;
+}
+
+.stu-prof-card{
+	margin: 20px 0px;
+}
+
+.mainbox{
+	margin: 0px auto;
+	padding: 30px;
+	width: fit-content;
+	height: fit-content;
+	text-align: center;
+	border: 10px solid;
+	border-radius: 20px;
+	border-image: linear-gradient(45deg, #0700b8 0%, #00ff88 100%) 1;
+}
+
+.st-img{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-image: url(../images/stpp.webp);
+	background-size: cover;
+	background-position: top;
+	border-radius: 30px;
+	outline: 4px solid #6ebaaf;
+	outline-offset: 3px;
+}
+
+.st-data{
+	margin: 20px 0px;
+}
+
+.st-data .bold{
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+}
+
+.courselist{
+	background-color: #bff2e0;
+	margin: 20px 0px;
+}
+
+.courselist{
+	margin: 20px 0px;
+}
+
+.courselist h1{
+	background-color: #628f4f;
+	color: #edfce6;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding: 10px;
+	border: 8px solid #b6f060;
+	border-style: groove;
+}
+
+.ri-graduation-cap-fill{
+	margin-right: 10px;
+}
+
+.courselist li{
+	list-style: initial;
+	padding: initial;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: "Roboto", sans-serif;
+}
+
+.notifiaction{
+	margin: 20px 0px;
+}
+
+.notifiaction h1{
+	background-color: #c4fc9f;
+	color: #77c246;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding: 10px;
+	border: 8px solid #fcf0bd;
+	border-style: groove;
+}
+
+.ri-notification-2-fill{
+	margin-right: 10px;
+}
+
+.notifiaction h1 + p{
+	border-left: 4px solid blue;
+}
+
+.notifiaction p{
+	margin: 10px 5px;
+	padding-left: 20px;
+	border-left: 4px solid #4abab5;
+}
+
+.announcement h1{
+	background-color: #d1acfc;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding: 10px;
+	border: 8px solid #f559f7;
+	border-style: groove;
+}
+
+.announcement h1 ~ p{
+	margin: 30px 10px;
+	padding: 10px;
+	font-size: 20px;
+	outline: 3px dashed #245b85;
+	outline-offset: 3px;
+}

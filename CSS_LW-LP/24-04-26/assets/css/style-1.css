@@ -1,0 +1,39 @@
+a:nth-child(odd)::before, h1:nth-child(odd)::before, p:nth-child(odd)::before{
+    content: "👉";
+}
+
+a:nth-child(odd)::after, h1:nth-child(odd)::after, p:nth-child(odd)::after{
+    content: "✓";
+}
+
+h2:first-child::before,div p:nth-of-type(1)::before{
+    content: "👉";
+}
+
+h2:first-child::after,div p:nth-of-type(1)::after{
+    content: "✓";
+}
+
+li:nth-child(odd)::before{
+    content: "👉";
+}
+
+li:nth-child(odd)::after{
+    content: "✓";
+}
+
+input:first-of-type{
+    content: "👉";
+}
+
+input:first-of-type::after{
+    content: "✓";
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+input::placeholder{
+    background-color: gray;
+}

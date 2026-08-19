@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.d-ib{
+	display: inline-block;
+}
+
+header{
+	height: 600px;
+	background-image: url(../images/hd.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu{
+	align-content: center;
+	margin-left: 700px;
+	height: 100px;
+	padding-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-inline: 20px;
+	font-size: 20px;
+}
+
+.about{
+	height: 300px;
+	padding: 20px 40px;
+	background-color: #7b9669;
+	color: #bac8b1;
+	text-align: center;
+}
+
+.about p{
+	margin-top: 30px;
+	text-indent: 100px;
+}
+
+.gallery{
+	height: 800px;
+	background-color: #e6c7f2;
+	background-image: url(../images/superman.png);
+}
+
+.gallery h1{
+	text-align: center;
+	background-color: #afe4ed;
+}
+
+.view-pos{
+	height: 300px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.view-pos .img-pro{
+	background-image: url(../images/woman.jpg);
+	width: 300px;
+	height: inherit;
+	background-size: cover;
+	/*background-repeat: none;*/
+	color: white;
+}
+
+.view-pos h1{
+	text-align: center;
+	background-color: #abe4ed;
+}
+
+.d1{
+	background-position: top;
+}
+
+.d2{
+	background-position: right;
+}
+
+.d3{
+	background-position: bottom;
+}
+
+.d4{
+	background-position: left;
+}
+
+.fiximg{
+	height: 600px;
+	background-image: url(../images/horror.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.quotes{
+	text-align: center;
+	padding: 20px;
+}
+
+.quotes h1{
+	background-color: #baff7d;
+}
+
+.bg-pro{
+	font-size: 20px;
+	border: 10px dashed; black;
+	background-image: url(../images/quote.png);
+	background-repeat: no-repeat;
+	margin: 20px;
+	padding: 30px;
+}
+
+
+.q1{
+	background-origin: border-box;
+}
+
+.q2{
+	background-origin: padding-box;
+}
+
+.q3{
+	background-origin: content-box;
+}
+
+.articles{
+	margin: 20px;
+	text-align: center;
+}
+
+.articles h1{
+	background-color: #a4f5de;
+}
+
+.clipro{
+	border: 15px dotted black;
+	padding: 30px;
+	font-size: 20px;
+	margin: 40px;
+	background-color: #fab1ea;
+}
+
+.ar1{
+	background-clip: border-box;
+}
+
+.ar2{
+	background-clip: padding-box;
+}
+
+.ar3{
+	background-clip: content-box;
+}

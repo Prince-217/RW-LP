@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- Flex - Box Properties -->
+
+    <h1>Flex - Box Properties</h1>
+
+    <section class="fl-grow-sec fl-cm">
+        <h2>1. flex-grow : (amount);</h2>
+        <div class="theory-box">
+            <h2>Theory</h2>
+            <div class="mn-th">
+                <h1>Definition and Usage</h1>
+                <p>The CSS flex-grow property <span class="hlight">defines how a flex item expands to fill available space within a container relative to its siblings.</span> It accepts a unitless number (default is 0) that acts as a proportion, where a higher number allows the item to grow more. It is essential for creating responsive layouts that fill extra screen space.</p>
+                <div class="ex">
+                    <span style="text-decoration: underline;">Ex:</span>
+                    
+                    .div-1{ 
+                            flex-grow: 4;
+                        }
+                </div>
+
+            </div>
+        </div>
+        <div class="example-box">
+            <h2>Example</h2>
+            <div class="clrful-div">
+                <div class="div-1">div-1</div>
+                <div class="div-2">div-2</div>
+                <div class="div-3">div-3</div>
+                <div class="div-4">div-4</div>
+                <div class="div-5">div-5</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fl-shrink-sec fl-cm">
+        <h2>2. flex-shrink : (amount);</h2>
+        <div class="theory-box">
+            <h2>Theory</h2>
+            <div class="mn-th">
+                <h1>Definition and Usage</h1>
+                <p>The flex-shrink property in CSS <span class="hlight">defines how a flex item will shrink relative to other items in the same container when there is not enough space</span> defines how a flex item will shrink relative to other items in the same container when there is not enough space. It is a key part of creating responsive layouts with CSS Flexbox. </p>
+                <div class="ex">
+                    <span style="text-decoration: underline;">Ex:</span>
+                    
+                    .div-2{
+                        flex-basis: 200px;
+                        flex-shrink: 3;
+                    }
+                </div>
+
+            </div>
+        </div>
+        <div class="example-box">
+            <h2>Example</h2>
+            <div class="clrful-div">
+                <div class="div-1">div-1</div>
+                <div class="div-2">div-2</div>
+                <div class="div-3">div-3</div>
+                <div class="div-4">div-4</div>
+                <div class="div-5">div-5</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fl-basis-sec fl-cm">
+        <h2>3. flex-basis : (amount);</h2>
+        <div class="theory-box">
+            <h2>Theory</h2>
+            <div class="mn-th">
+                <h1>Definition and Usage</h1>
+                <p>The flex-basis property in CSS <span class="hlight">specifies the initial main size of a flex item before any available space in the container is distributed via growing or shrinking factors.
+                </span> It serves as the "starting point" for an element's dimensions within a Flexbox layout.</p>
+                <div class="ex">
+                    <span style="text-decoration: underline;">Ex:</span>
+                    
+                    .div-5{
+                        flex-basis: 50px;
+                    }
+
+                </div>
+
+            </div>
+        </div>
+        <div class="example-box">
+            <h2>Example</h2>
+            <div class="clrful-div">
+                <div class="div-1">div-1</div>
+                <div class="div-2">div-2</div>
+                <div class="div-3">div-3</div>
+                <div class="div-4">div-4</div>
+                <div class="div-5">div-5</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

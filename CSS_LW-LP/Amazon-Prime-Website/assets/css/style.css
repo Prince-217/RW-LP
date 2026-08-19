@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    margin: 20px 60px;
+    padding: 15px;
+    width: 1400px;
+    background: rgba(0, 0, 0, 0.553);
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-weight: 600;
+    margin-inline: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* margin-inline: 10px; */
+    /* gap: 30px; */
+    border-right: 3px solid rgba(255, 255, 255, 0.349);
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 15px;
+}
+
+nav a{
+    margin-inline: 10px;
+}
+
+.sbscr-bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.sbscr-bx a{
+    font-size: 17px;
+}
+
+.sbscr-bx a i{
+    margin-right: 5px;
+}
+
+.left-cnt{
+    display: flex;
+    margin-right: 30px;
+    margin-left: auto;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.user-prof{
+    display: flex;
+    margin-inline: 12px;
+    align-items: center;
+}
+
+.ctg-bx{
+    height: 30px;
+    width: 30px;
+}
+
+.ctg-bx a{
+    font-size: 20px;
+}
+
+.lng-bx{
+    display: flex;
+    align-items: center;
+    font-family: "Stack Sans Headline", sans-serif;
+    width: 60px;
+    /* background-color: aquamarine; */
+    font-size: 17px;
+    margin-inline: 15px;
+}
+
+.srch-btn{
+    font-size: 17px;
+}
+
+.jn-prime-btn{
+    background-color: rgb(43, 89, 239);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.ctg-cnt{
+    position: absolute;
+    display: none;
+    inset: 90px 30px auto auto;
+    height: 450px;
+    width: 650px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.122);
+    border-radius: 15px;
+}
+
+.genres{
+    width: 60%;
+    border-right: 0.8px solid rgb(121, 121, 121);
+    /* background-color: cadetblue; */
+}
+
+.ct-cm{
+    color: rgb(149, 149, 149);
+    font-size: 13px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    height: 10%;
+}
+
+.cm-list{
+    width: 100%;
+    padding: 10px;
+}
+
+.cm-list ul{
+    list-style: none;
+    padding: 0;
+    font-size: 17px;
+}
+
+.cm-list ul li{
+    line-height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.featured-col{
+    margin-left: 20px;
+}
+
+.ctg-bx:hover .ctg-cnt{
+    display: flex;
+}
+
+
+.main-container{
+    position: static;
+    margin-left: 80px;
+    /* margin-top: 65px; */
+}
+
+.right-img img{
+    width: 880px;
+    height: 675px;
+    float: right;
+}
+
+.sign-title{
+    color: white;
+    width: 935px;
+    height: 675px;
+    padding-block: 80px;
+    background: #000000;
+}
+
+.sign-title h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-title p{
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-btn{
+    width: 230px;
+    height: 62px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.sign-btn button{
+    background: transparent;
+    padding: 17px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.main-container2{
+    position: static;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.right-img2 img{
+    width: 920px;
+    height: 675px;
+    float: right;
+}
+
+.sign-btn2{
+    width: 130px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+    align-content: center;
+    text-align: center;
+}
+
+.sign-btn2 button{
+    background: transparent;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign-btn2:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.main-container3{
+    position: static;
+    width: 100%;
+    padding: 50px;
+    background-color: #00050D;
+}
+
+.fav_subs{
+    display: grid;
+    float: right;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fav_subs img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.fav_subs img:hover{
+    box-shadow: 1px 2px 11px -3px rgb(238, 243, 245);
+}
+
+.sign-title3{
+    color: white;
+    width: 935px;
+    height: 593px;
+    padding-block: 0px;
+}
+
+.sign-title3 p{
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.f-container{
+    padding-block: 24px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.f-logo img{
+    width: 105px;
+}
+.f-link{
+    margin-bottom: 7px;
+}
+
+.f-link a{
+    color: #48b3f5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.f-copyright{
+    color: #5988A5;
+    font-size: 14px;
+}
+
+.main-container4{
+    position: static;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.sign-btn3{
+    width: 180px;
+    height: 62px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 1s;
+    align-content: center;
+    text-align: center;
+}
+
+.sign-btn3 button{
+    background: transparent;
+    padding: 17px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.sign-btn3:hover{
+    color: rgb(58, 57, 57);
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    transform: scale(1.2);
+}

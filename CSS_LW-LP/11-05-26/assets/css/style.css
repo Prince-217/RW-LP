@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.obft-pro{
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.obft-pro > div h3{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.pr-bx{
+    height: 300px;
+    width: 200px;
+}
+
+.pr-bx img{
+    height: 100%;
+    width: 100%;
+}
+
+.of-cover img{
+    object-fit: cover;
+}
+
+.of-contain img{
+    object-fit: contain;
+}
+
+.of-fill img{
+    object-fit: fill;
+}
+
+.of-none img{
+    object-fit: none;
+}
+
+.of-scdwn img{
+    object-fit: scale-down;
+}
+
+.obpo-pro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.obpo-pro > div h3{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.ob-ps1 img{
+    object-fit: cover;
+    object-position: 10px 20px;
+}
+
+.ob-ps2 img{
+    object-fit: cover;
+    object-position: 40% 5%;
+}
+
+.mn-layer{
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.mn-layer img{
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    transition: all 0.6s;
+}
+
+.mn-layer:hover .overlay{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.426);
+}

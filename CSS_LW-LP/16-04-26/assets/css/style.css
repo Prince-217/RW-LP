@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+body{
+	background-color: #404e3b;
+}
+
+img{
+	display: flex;
+}
+
+h1{
+	display: flex;
+	font-family: "Amarante", serif;
+	color: #e6e6e6;
+}
+
+ul{
+	list-style: circle;
+}
+
+li{
+	color: #bac8b1;
+	font-size: 1em;
+	line-height: 25px;
+	/*font-variant: small-caps;*/
+	font-family: "Miranda Sans", sans-serif;
+}

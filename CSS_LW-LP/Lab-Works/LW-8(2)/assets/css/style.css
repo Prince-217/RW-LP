@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+	text-align: center;
+	background: #0f0c29;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	color: #ac66de;
+	font-family: "Roboto", sans-serif;
+}
+
+h3{
+	font-style: italic;
+	color: #cdb3fc;
+	letter-spacing: 2px;
+}
+
+h2{
+	color: #87e6ce;
+	font-family: "Caudex", serif;
+}
+
+i{
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+
+p{
+	font-weight: 600;
+	color: #5ea7ab;
+}

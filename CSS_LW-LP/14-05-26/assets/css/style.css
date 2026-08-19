@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f5f;
+}
+
+h1{
+    text-align: center;
+    margin-block:20px;
+}
+
+.grid{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr;
+    margin: 10px;
+}
+
+.card{
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px #000;
+}
+
+.grid .card:nth-child(1){
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:10px;
+
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9, .card-10, .card-11, .card-12{
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+    box-shadow: 0 2px 10px #000;
+}

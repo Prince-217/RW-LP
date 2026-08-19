@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.explore-sec{
+    display: flex;
+    width: 1260px;
+    height: 350px;
+    margin: 0 auto;
+    /* background-color: burlywood; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.combo-box{
+    height: inherit;
+    width: 590px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+    z-index: 1;
+}
+
+.products-footages .cm{
+    position: absolute;
+    height: 173px;
+    width: 33%;
+    /* background-color: aqua; */
+}
+
+.prod-1{
+    inset: 0 auto auto 0;
+    background-image: url("../images/pr1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prod-2{
+    inset: 0 0 auto 0;
+    margin: auto;
+    background-image: url("../images/pr2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prod-3{
+    inset: 0 0 auto auto;
+    background-image: url("../images/pr3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prod-4{
+    inset: auto auto 0 0;
+    background-image: url("../images/pr4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prod-5{
+    inset: auto 0 0 0;
+    margin: auto;
+    background-image: url("../images/pr5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.prod-6{
+    inset: auto 0 0 auto;
+    background-image: url("../images/pr6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.combo-box .combo-text-box{
+    height: 80px;
+    width: 300px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    /* background-color: bisque; */
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.combo-text-box .text-1{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.combo-text-box .text-2{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sale-box{
+    height: inherit;
+    width: 590px;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    background-image: url("../images/woman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sale-text-box{
+    height: 100px;
+    width: 300px;
+    /* background-color: bisque; */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.sale-text-box .text-1{
+    display: block;
+    font-size: 15px;
+}
+
+.sale-text-box .text-2{
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.services-sec{
+    margin: 30px auto;
+    height: 400px;
+    width: 1260px;
+    /* background-color: chocolate; */
+}
+
+.services-sec h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sample-images{
+    display: flex;
+    height: 250px;
+    /* background-color: cadetblue; */
+}
+
+.sample-images .ser-cm{
+    height: inherit;
+    width: 210px;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+
+.smp-1{
+    background-image: url("../images/pr1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smp-2{
+    background-image: url("../images/pr2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smp-3{
+    background-image: url("../images/pr3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smp-4{
+    background-image: url("../images/pr4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smp-5{
+    background-image: url("../images/pr5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smp-6{
+    background-image: url("../images/pr6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.serv-info{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.serv-info > div{
+    display: flex;
+}
+
+.info-txt{
+    height: inherit;
+    width: 70%;
+}
+
+.info-txt .ser-txt-big{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info-txt .ser-txt-norm{
+    font-size: 12px;
+    color: gray;
+}
+
+.serv-info i{
+    font-size: 30px;
+    color: gray;
+}

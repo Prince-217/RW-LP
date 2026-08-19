@@ -1,0 +1,20 @@
+@media (min-width:768px){
+    .menu-tgl{
+        display: none;
+    }
+
+    .nv-mn{
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+        gap:1.5rem;
+        padding: 1.5rem;
+    }
+
+    .card{
+        padding: 1.5rem;
+    }
+}

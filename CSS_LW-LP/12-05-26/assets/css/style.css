@@ -1,0 +1,10 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box{
+    margin: 30px;
+    background-color: khaki;
+    max-width: 50%;
+}

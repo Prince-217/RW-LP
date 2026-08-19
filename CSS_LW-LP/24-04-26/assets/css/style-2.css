@@ -1,0 +1,25 @@
+a[href^="https://"]{
+    background-color: red;
+}
+
+a[target="_blank"]{
+    background-color: green;
+}
+
+input[type|="text"]{
+    border-color: blue;
+}
+
+input[type="email"]{
+    border-color: orange;
+}
+
+img[src$=".jpg"]{
+    border:2px solid brown;
+}
+
+p[class|="info"]{
+    background-color: yellow;
+}
+
+

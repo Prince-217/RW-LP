@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	padding: 20px;
+	background-color: black;
+}
+
+.logo, .menu{
+	display: inline-block;
+}
+
+.logo{
+	align-content: center;
+}
+
+.menu{
+	margin-left: 1150px;
+}
+
+.tx-dc a{
+	color: white;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.logo a{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.menu a{
+	font-size: 30px;
+	margin-inline: 10px;
+}
+
+.lpage{
+	overflow: hidden;
+	text-align: center;
+	background-image: url("../images/bg.png");
+	background-size: cover;
+}
+
+.mcont{
+	display: inline-block;
+	margin: 250px 0;
+	text-align: center;
+}
+
+.mcont h1{
+	color: white;
+	font-family: "Roboto", sans-serif;
+	word-spacing: 5px;
+	font-size: 50px;
+}
+
+.btn{
+	margin-top: 20px;
+	margin-inline: 20px;
+	background: none;
+	padding: 20px 40px;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;	
+}
+
+.btn-1{
+	color: white;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+.btn-2{
+	color: black;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: white;
+}

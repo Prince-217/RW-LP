@@ -1,0 +1,12 @@
+# JavaScript
+node_modules/
+
+# Compiled Executables & Binaries (C/C++)
+*.exe
+*.out
+*.o
+*.obj
+
+# Optional: Common IDE / Build artifacts
+*.dSYM/
+.vscode/

@@ -1,0 +1,31 @@
+@import 'demo.css';
+
+
+body{
+	background-color: #0b2e33;
+}
+
+h1{
+	text-align: center;
+	color: #39a8a3;
+	font-family: "Delius", cursive;
+}
+
+h3{
+	text-align: center;
+	color: #90e8b5;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+
+.note{
+	letter-spacing: 1px;
+	font-style: oblique;
+	color: #c6f2a2;
+}
+
+p{
+	background-color: #3cb6cf;
+}
+

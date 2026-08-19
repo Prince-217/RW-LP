@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="EN-US">
+	<head>
+	<meta charset="UTF-8">
+		<title>
+			INDEX
+		</title>
+		<style>
+			table{
+				border-collapse: collapse;
+				margin: 0 auto;
+			}
+			td{
+				padding: 10px 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align: center">Job Application Form</h1>
+		<form>
+			<table border>
+				<thead></thead>
+				<tbody>
+					<tr>
+						<td>Full Name:</td>
+						<td><input type="text" placeholder="Enter Your Name" required></td>
+					</tr>
+					<tr>
+						<td>Email Address:</td>
+						<td><input type="email" placeholder="Enter Your Email" required></td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td><input type="tel" placeholder="Enter Your Number" required></td>
+					</tr>
+					<tr>
+						<td>Gender:</td>
+						<td>
+							<input type="radio" value="Male" name="gender" required>Male</input>
+							<input type="radio" value="Female" name="gender" required>Female</input>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>Job Role:</td>
+						<td>
+							<select required>
+								<option selected>--Select Role--</option>
+								<option>HR</option>
+								<option>Salesman</option>
+								<option>Data Analyst</option>
+								<option>Employee</option>
+								<option>House Keeper</option>	
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Date Of Birth:</td>
+						<td><input type="date" required></td>
+					</tr>
+					<tr>
+						<td>Favourite Color:</td>
+						<td><input type="Color"></td>
+					</tr>
+					<tr>
+						<td>Upload Resume:</td>
+						<td><input type="file" required></td>
+					</tr>
+					<tr>
+						<td>Skills:</td>
+						<td required>
+							<input type="checkbox" value="HTML" name="skills">HTML</input>
+							<input type="checkbox" value="CSS" name="skills">CSS</input>
+							<input type="checkbox" value="Java Script" name="skills">Java Script</input>
+							<input type="checkbox" value="React" name="skills">React</input>
+						</td>
+					</tr>
+					<tr>
+						<td>Cover Letter:</td>
+						<td>
+							<textarea placeholder="Write Something About Yourself..." required></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center">
+							<button type="Submit">Submit</button>
+							<button type="Reset">Reset</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>
