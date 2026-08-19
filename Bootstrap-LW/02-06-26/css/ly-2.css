@@ -1,0 +1,37 @@
+*,*::before,*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row [class^="col-"] > div{
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.row-1 [class^="col-"] > div{
+    background-color: #f0aa37;
+}
+
+.row-2 [class^="col-"] > div{
+    background-color: #ffd52b;
+}
+
+.row-3 [class^="col-"] > div{
+    background-color: #00ffd7;
+}
+
+.row-4 [class^="col-"] > div{
+    background-color: #2edfb4;
+}
+
+.row-5 [class^="col-"] > div{
+    background-color: #10b990;
+}
+
+.row-6 [class^="col-"] > div{
+    background-color: #fce5dd;
+}
+
+.row-7 [class^="col-"] > div{
+    background-color: #f7b4a9;
+}

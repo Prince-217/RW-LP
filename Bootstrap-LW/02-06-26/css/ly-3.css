@@ -1,0 +1,35 @@
+*,*::before,*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row:nth-of-type(1) > div{
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+    color: white;
+}
+
+.row-1 > div{
+    background-color: #22223b;
+    padding: 20em;
+}
+
+.row [class^="col"] > div{
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+}
+
+.row-2 [class^="col"] > div{
+    background-color: #4a4e69;
+    padding: 6em;
+}
+
+.row-3 [class^="col"] > div{
+    background-color: #415a77;
+    padding: 12em;
+}
+
+.row-4 [class^="col"] > div{
+    background-color: #bee1e6;
+    padding: 14em;
+}

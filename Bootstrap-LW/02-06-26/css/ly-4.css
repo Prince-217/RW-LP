@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+}
+
+body>.row {
+    max-width: 1400px;
+}
+
+body>.row>[class^="col"] {
+    color: black;
+    text-align: center;
+}
+
+.row-1 [class^="col"]:nth-child(1) {
+    background-color: #495867;
+}
+
+.row-1 [class^="col"]:nth-child(2) {
+    background-color: #fe5f55;
+}
+
+.row-2 [class^="col"] {
+    background-color: #99c1de;
+    padding: 10em;
+    color: black;
+}
+
+.row-3>[class^="col"]:nth-child(1) {
+    background-color: #fe5f55;
+    align-content: center;
+}
+
+.row-3>[class^="col"]:nth-child(2) {
+
+    >.row>.col:nth-child(1) {
+        background-color: #1b263b;
+        align-content: center;
+        padding: 7em;
+        color: white;
+    }
+
+    .row>.col:nth-child(2)>.row>.col:nth-child(1) {
+        background: none;
+    }
+
+    .row>.col:nth-child(2)>.row>.col:nth-child(2) {
+        .row>.col:nth-child(1) {
+            background-color: #94d2bd;
+            padding: 3.5em;
+            align-content: center;
+        }
+
+        .row>.col:nth-child(2) {
+            background-color: #0a9396;
+            padding: 3.5em;
+            align-content: center;
+        }
+    }
+
+    .row > .col:nth-child(3) {
+        color: black;
+        background-color: #fcbf49;
+        text-align: center;
+        padding: 4em;
+    }
+
+    .row > .col:nth-child(4){
+        .row > .col:nth-child(1){
+            background-color: #94d2bd;
+            padding: 3.5em;
+            align-content: center;
+        }
+        .row > .col:nth-child(2){
+            background-color: #0a9396;
+            padding: 3.5em;
+            align-content: center;
+        }
+    }
+}
+
+.row-4>.col {
+    color: black;
+    background-color: #fcbf49;
+    text-align: center;
+    padding: 4em;
+}

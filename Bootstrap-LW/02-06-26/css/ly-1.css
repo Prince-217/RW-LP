@@ -1,0 +1,10 @@
+*,*::before,*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row [class^="col-"] > div{
+    background-color: rgb(142, 197, 197);
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+}
