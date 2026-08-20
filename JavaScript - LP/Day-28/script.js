@@ -36,7 +36,7 @@ function getCovidInfo() {
         })
 }
 
-
+// DOG API
 
 function getDog() {
     let dog = document.getElementById("dogimg")
