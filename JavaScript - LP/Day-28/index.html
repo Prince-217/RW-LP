@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>API Concept</h1>
+
+    <h2>Corona API</h2>
+
+    <h3>Enter country to get COVID-19 report.</h3>
+
+    <input type="text" id="country" placeholder="Enter country name">
+
+    <button id="getinf" onclick="getCovidInfo()">Get Info</button>
+
+
+    <h2 id="countryHeader"></h2>
+
+    <ul style="list-style: none; padding: 0;">
+        <li id="population"></li>
+        <li id="totalCases"></li>
+        <li id="recovered"></li>
+        <li id="activeCase"></li>
+        <li id="criticalCase"></li>
+    </ul>
+
+    <h1>Dog API</h1>
+    <h3>Click below button to generate dog image.</h3>
+    <button onclick="getDog()">Click</button>
+    <br>
+    <br>
+
+    <img id="dogimg" alt="">
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
