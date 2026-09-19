@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Exercise</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="container w-full px-2 py-5">
+        <h1 class="text-xl font-semibold my-2">Q1. Check if jQuery is loaded.</h1>
+        <p id="ans1"></p>
+        <h1 class="text-xl font-semibold my-2">Q2. If Page is too long scroll to the Top </h1>
+        <p id="ans2">Press bootom-right button to scroll to the top</p>
+        <button id="scrollTopBtn" class="fixed px-4 py-2 rounded-full text-center bg-slate-300 inset-s-auto inset-e-10 bottom-10 transition focus:outline-none hover:bg-emerald-600 hover:text-white">&#11165;</button>
+        <h1 class="text-xl font-semibold my-2">Q3. Animate width and height of button</h1>
+        <button id="animateBtn" class="border bg-slate-300 rounded-full p-3">Click to animate</button>
+        <h1 class="text-xl font-semibold my-2">Q4. FadeIn your boxes.</h1>
+        <button id="fadeInBtn" class="p-3 rounded-full bg-emerald-600 text-white">Fade In Box</button>
+        <div id="fadebox" class="hidden mt-2 h-30 w-30 bg-orange-400 rounded-lg"></div>
+        <h1 class="text-xl font-semibold my-2">Q5. Clickable button after check box.</h1>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Check this box to make button clickable</label>
+        <button id="checkBtn" class="p-3 rounded-full bg-emerald-600 text-white" disabled>Click Me</button>
+        <h1 class="text-xl font-semibold my-2">Q6. Letting Users to print some documents </h1>
+        <button id="printBtn" class="px-4 py-1 rounded-full bg-blue-300">Print</button>
+        <h1 class="text-xl font-semibold my-2">Q7. Don't let username to be too long.</h1>
+        <input type="text" id="maxLengthInput" placeholder="Enter text here (maximum 10 characters)" class="w-80 border px-2 py-1 rounded-full focus:outline-none">
+        <h1 class="text-xl font-semibold my-2">Q8. Forget to bold words</h1>
+        <p id="forgetBoldWords">
+            (In this paragraph you can't increase font-weight)
+            <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eaque dolorum autem fugiat soluta pariatur enim assumenda! Impedit mollitia excepturi dicta ex consequatur voluptas beatae incidunt quasi, quaerat, facilis omnis.
+        </p>
+        <h1 class="text-xl font-semibold my-2">Q9. Adding new divison</h1>
+        <div id="parentDiv" class="bg-green-700 border p-3 text-white">
+            Click to add new div
+        </div>
+        <h1 class="text-xl font-semibold my-2">Q(10 & 11). Select values from a JSON object using jQuery and Add elements within ul list.</h1>
+        <p>Here is the value from json object</p>
+        <ul id="jsonValues" class="mt-2"></ul>
+        <h1 class="text-xl font-semibold my-2">Q12. Know what user puts into textbox</h1>
+        <input type="text" id="inputText" placeholder="Enter text here" class="border px-2 py-1 rounded-lg focus:outline-none">
+        <button id="knowInput" class="bg-orange-300 px-2 rounded-full cursor-pointer">Know input</button>
+        <h1 class="text-xl font-semibold my-2">Q13. Change input value</h1>
+        <input type="text" id="inputChange" placeholder="Enter text here" class="border px-2 py-1 rounded-lg focus:outline-none">
+        <button id="changeInput" class="bg-green-300 px-2 rounded-full cursor-pointer">Change input</button>
+        
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

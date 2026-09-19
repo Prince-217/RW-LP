@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery D-1</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p id="hdspara">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam? Voluptate, tempore blanditiis id doloribus ratione iusto commodi labore provident quidem accusantium rem autem nulla aspernatur vel voluptatibus reiciendis ipsa consequuntur perspiciatis! Illo, repudiandae alias error velit enim aspernatur soluta?
+    </p>
+    <button id="hidebtn">Hide</button>
+    <button id="showbtn">Show</button>
+    <button id="togglebtn">Toggle</button>
+    
+    <p id="fadein" class="block w-full text-center bg-slate-400 text-white p-2">Click here to Fade in</p>
+    <p id="cntpara1" class="hidden p-2 bg-slate-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium numquam eius, unde debitis consequatur error aliquam vitae velit animi magnam, vel saepe dicta autem soluta, illum labore. Inventore ea fuga officia debitis, adipisci ab commodi deleniti optio perspiciatis voluptatibus, ducimus sequi quam autem sapiente saepe. A nesciunt illum vero eveniet.</p>
+
+    <p id="fadeout" class="mt-2 block w-full text-center bg-slate-400 text-white p-2">Click here to Fade out</p>
+    <p id="cntpara2" class="p-2 bg-slate-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium numquam eius, unde debitis consequatur error aliquam vitae velit animi magnam, vel saepe dicta autem soluta, illum labore. Inventore ea fuga officia debitis, adipisci ab commodi deleniti optio perspiciatis voluptatibus, ducimus sequi quam autem sapiente saepe. A nesciunt illum vero eveniet.</p>
+
+    <p id="fadetoggle" class="block w-full mt-2 text-center bg-slate-400 text-white p-2">Click here to Fade toggle</p>
+    <p id="cntpara3" class="p-2 bg-slate-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium numquam eius, unde debitis consequatur error aliquam vitae velit animi magnam, vel saepe dicta autem soluta, illum labore. Inventore ea fuga officia debitis, adipisci ab commodi deleniti optio perspiciatis voluptatibus, ducimus sequi quam autem sapiente saepe. A nesciunt illum vero eveniet.</p>
+    <script>
+        $("#hidebtn").click(function(){
+            $("#hdspara").hide()
+        })
+        $("#showbtn").click(function(){
+            $("#hdspara").show()
+        })
+        $("#togglebtn").click(function(){
+            $("#hdspara").toggle()
+        })
+        $("#fadein").click(function(){
+            $("#cntpara1").fadeIn(3000);
+        })
+        $("#fadeout").click(function(){
+            $("#cntpara2").fadeOut("fast");
+        })
+        $("#fadetoggle").click(function(){
+            $("#cntpara3").fadeToggle("slow");
+        })
+    </script>
+</body>
+</html>
